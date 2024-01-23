@@ -1,0 +1,105 @@
+@media only screen and (max-width: 800px) {
+    .over {
+        content: "";
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        transform-origin: left;
+        top: 0;
+        z-index: 9999;
+        transition: 4s ease-in-out;
+        background-color: black;
+        opacity: .5;
+        width: 30%;
+
+    }
+
+    .Image-box {
+        height: 250px;
+        margin-right: 20px;
+    }
+
+    .hero-text {
+        padding: 0 2rem;
+    }
+
+    .hero-text h1 {
+        font-size: 45px;
+    }
+.hero-text .buttons{
+    margin-top: 1rem;
+}
+.hero-text button{
+margin:0;
+}
+    .banne {
+        height: 450px;
+    }
+
+    .menu ul:before {
+        opacity: 0;
+    }
+
+    .menu ul:after {
+        opacity: 0;
+    }
+
+    nav #bar {
+        display: block !important;
+        bottom: 0;
+    }
+
+    nav {
+        padding: 2.5rem 2rem;
+    }
+
+    ul {
+        padding: 7rem 2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .menu {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        transition: 2s ease-in-out;
+        right: -15000px;
+        background-color: rgb(207, 205, 205) !important;
+    }
+
+    ul li a {
+        font-size: 22px;
+    }
+
+    .logo {
+padding-bottom:1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul li a {
+        color: grey;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 762px) {
+    .logo img {
+      width: 250px !important;
+      max-width: 100%;
+    }
+  }
+  
+
+@media only screen and (max-width: 576px) {
+    .banner {
+        height: 350px;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+}
+
