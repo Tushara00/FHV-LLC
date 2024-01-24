@@ -1,6 +1,6 @@
 const menu = document.getElementById("menu");
     const bar = document.getElementById("bar");
-    const over = document.getElementById("over");
+    const overLay = document.getElementById("over-lay");
     const span_1 = document.getElementById("span_1")
     const span_2 = document.getElementById("span_2")
     const span_3 = document.getElementById("span_3")
@@ -12,7 +12,7 @@ const menu = document.getElementById("menu");
       link.addEventListener("click", function () {
     menu.classList.add("new");
     menu.classList.remove("toggle");
-    over.classList.toggle('over');
+    overLay.classList.toggle('over');
       span_2.classList.remove('active');
       span_1.classList.remove('span_1');
       span_3.classList.remove('span_3');
