@@ -17,17 +17,13 @@
 
     }
 
-    .Image-box {
-        height: 250px;
-        margin-right: 20px;
-    }
-
+  
     .hero-text {
         padding: 0 2rem;
     }
 
     .hero-text h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
 .hero-text .buttons{
     margin-top: 1rem;
