@@ -17,7 +17,12 @@
 
     }
 
-  
+  .left-content{
+    width:100% !important;
+  }
+  .right-content{
+    width:100% !important;
+  }
     .hero-text {
         padding: 0 2rem;
     }

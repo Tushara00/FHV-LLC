@@ -225,6 +225,29 @@ ul li a:hover {
 
   width:100%;
 }
+/*contact*/
+
+.contact-section{
+  background-color: aqua;
+  width:1140px;
+  margin:0 auto;
+}
+.contact-container{
+  display:flex;
+ width:100%;
+ flex-wrap: wrap;
+}
+.left-content{
+  width:60%;
+  border:2px solid red;
+}
+input,textarea{
+  width:100%;
+}
+.right-content{
+  width:40%;
+  border:2px solid red;
+}
 /*footer*/
 footer {
   width:100%;
