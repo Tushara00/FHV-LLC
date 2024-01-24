@@ -52,8 +52,8 @@ background-color: #1D90F5;
 border-radius:5px;
 }
 .phone-number a{
-  font-size: var( --btn-a-font-size);
-  color:var(--btn-a-color);
+  font-size: 18px;
+  color: white;
   
 }
 .phone-number i{

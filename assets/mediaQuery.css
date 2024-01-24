@@ -23,7 +23,7 @@
     }
 
     .hero-text h1 {
-        font-size: 35px;
+        font-size: 35px !important;
     }
 .hero-text .buttons{
     margin-top: 1rem;
@@ -72,8 +72,8 @@ margin:0;
     }
 
     .logo {
-padding-bottom:1rem;
-        width: 100%;
+padding-bottom:1re;
+        width: 100% !important;
         text-align: center;
     }
 
