@@ -1,98 +1,4 @@
 
-@font-face {
-  font-family: 'Satoshi-Variable', sans-serif;
-  src: 
-       url('font/Variable/Satoshi-Variable.ttf'),
-       url('font/Variable/Satoshi-VariableItalic.ttf') ,
-       url('font/Satoshi-Variable.ttf') ;
-       font-weight: 300 900;
-       font-display: swap;
-       font-style: normal;
-}
-html,body{
-    font-family: 'Satoshi-Variable', serif;
-  
-  :root{
-    /*colors*/
-    --btn2-bg: #2D8CFF
-    --btn1-bg: #1D90F5;
-     --section-bg:#EDF0F2;
-     --a-color:#878ba5;
-     --a-color-hover:#1D90F5;
-     --heading-color-1:#131827;
-     --heading-color-2:#ffff;
-     --p-color:#4b5563;
- /*typography*/
- --p-font-size:16px;
- --p-line-height:28px;
- --a-font-size:14px;
- --a-line-height:;
- --heading-1-font-size:55px:
- /*shadow*/
- --shadow: 0 5px  10px black;
-  } 
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-.new{
-  right:-1500px !important
-}
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul {
-  color:rgb(11,110,115);
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: ;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-input,
-textarea,
-button {
-  font: inherit;
-  outline: none;
- 
-}
-button {
-  cursor: pointer;
-}
-
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
-}
-
-.section {
-  padding: 4rem 0 8rem 0;
-}
-
-
 /* header */
 ul li {
   font-size: 12px;
@@ -102,7 +8,7 @@ ul li {
 }
 
 ul {
-  border: 10px solid green;
+  border: 10px solid gree;
   justify-content: center;
   display: flex;
   width: 100%;
@@ -111,14 +17,32 @@ ul {
   position: relative;
 }
 
+
+
 .menu {
-  border:2px solid red;
-  width: 70%;
+  border:2px solid re;
+  width: 55%;
   background-color: re;
   ;
 }
 .phone-number{
-  border:2px solid red;
+  
+  width: 20%;
+  border:2px solid re;
+ text-align: center;
+  padding: var(--btn-padding);
+background-color: #1D90F5;
+border-radius: var(--btn-border-radius);
+}
+.phone-number a{
+  font-size: var( --btn-a-font-size);
+  color:var(--btn-a-color);
+  
+}
+.phone-number i{
+  padding-right:5px;
+  font-size: 15px;
+  color:white;
 }
 header {
   width: 100%;
@@ -130,7 +54,7 @@ header {
 }
 
 nav {
-  background-color: aqua;
+  background-color: aqu;
   display: flex;
   max-width: 100%;
   width: 1200px !important;
@@ -139,11 +63,12 @@ nav {
  padding-bottom:.8rem;
   background-color: aqu;
   height: 100%;
+  align-items: center;
 }
 
 .logo {
-  border:2px solid red;
-  width: 30%;
+  border:2px solid re;
+  width: 25%;
   background-color: rgb(255, 255, 255);
   display: inline-block;
   background-color: orang;
@@ -202,12 +127,76 @@ ul li a {
   color: rgb(158, 158, 158);
   line-height: 40px;
   ;
-  font-size: 16px;
+  padding-right:5px;
+  font-size: 14px;
   font-weight: 400;
   transition: color .5s ease-in;
 }
 
 ul li a:hover {
   color: #4FBBD9;
+}
+
+.hero-text {
+  position: absolute;
+  z-index: 10000;
+  color: white;
+  text-align: cente;
+  top: 60%;
+  left: 20%;
+  transform: translate(-20%, -60%);
+
+}
+
+.hero-text h3 {
+  font-size: 21px;
+  color:white!important;
+  font-family: 'Gordita';
+  font-weight: 300;
+  
+}
+
+.hero-text h1 {   
+  text-shadow: 1px 1px 3px #4FBBD9;
+  font-size: 68px;
+  text-align: cente;
+  font-weight: 400;
+  position: relative;
+  color:white!important;
+}
+.hero-text button{
+  padding:8px 20px;
+  border-radius: 5px;
+  margin:1rem .3rem;
+  outline:none;
+  border:2px solid transparent;;
+  background-color: #4FBBD9;
+}
+
+.hero-text button a{
+  color:white;
+  font-family: 'Gordita', sans-serif;
+  font-size: 14px;
+ 
+}
+.hero-text button:hover{
+  background-color: transparent;
+  border:2px solid #4FBBD9;
+}
+.hero-text button a{
+  font-size: 16px !important;
+  font-weight: 300;
+}
+.hero-text button:hover a {
+  color:black;
+}
+.banner-overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  background-color: black;
+  opacity:.5;
+  width:100%;
 }
 
