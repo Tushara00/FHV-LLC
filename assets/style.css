@@ -247,16 +247,29 @@ ul li a:hover {
   border:2px solid re;
   padding:2rem;
   border:2px solid red;
+ 
 }
 input,textarea{
   width:100%;
-
+margin-top:1rem;
+margin-bottom:1rem;
+padding:.5rem;
 }
 .right-content{
+  display:flex;
+  flex-direction: column;
+ 
+  align-self: center;
   width:40%;
   border:2px solid re;
   padding:2rem;
   border:2px solid red;
+}
+.right-content span{
+  width:inherit;
+  height:inherit;
+  display:inline;
+background-color: transparent;
 }
 /*footer*/
 footer {
@@ -290,6 +303,80 @@ nav{
   padding:1rem 3rem;
 }
 .copyright {
+  font-size: 14px;
+}
+
+.left-content,
+.right-content h3 {
+  font-family: 'Gordita', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #232323;
+}
+
+.right-content h2 {
+  font-family: 'Gordita', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #232323;
+}
+
+.right-content p {
+  padding: 2rem 0;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.right-content a {
+  display: flex;
+  align-items: center;
+  gap: .5rem
+}
+
+.right-content span {
+  width: initial;
+  height: initial;
+  margin: initial;
+  background-color: initial;
+  display: initial;
+}
+
+.social-icons a {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.social-icon-container h2 {
+  font-size: 16px;
+  font-family: 'Gordita', sans-serif;
+  line-height: 26px;
+  font-weight: 400px;
+  color: #232323;
+}
+
+.social-icons {
+  display: flex !important;
+  flex-direction: row;
+  gap: 1rem;
+  padding-top: .5rem;
+  justify-content: flex-start;
+  padding-left: 3px;
+}
+
+.social-icon {
+  align-items: center;
+}
+
+.social-icon i {
+  color: rgb(255, 255, 255);
   font-size: 14px;
 }
 
