@@ -228,24 +228,34 @@ ul li a:hover {
 /*contact*/
 
 .contact-section{
-  background-color: aqua;
-  width:1140px;
+  
+ 
   margin:0 auto;
+
 }
 .contact-container{
   display:flex;
- width:100%;
+  width:1140px;
+  max-width: 100%;
+  background-color: aqua;
  flex-wrap: wrap;
+ margin:0 auto;
+ 
 }
 .left-content{
   width:60%;
+  border:2px solid re;
+  padding:2rem;
   border:2px solid red;
 }
 input,textarea{
   width:100%;
+
 }
 .right-content{
   width:40%;
+  border:2px solid re;
+  padding:2rem;
   border:2px solid red;
 }
 /*footer*/
