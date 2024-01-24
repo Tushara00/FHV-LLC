@@ -13,20 +13,17 @@ const menu = document.getElementById("menu");
     menu.classList.toggle("menu-hide");
     menu.classList.remove("menu-show");
     //overLay.classList.toggle('over');
-      span_2.classList.remove('active');
-      span_1.classList.remove('span_1');
-      span_3.classList.remove('span_3');
 
       });
     });
 
 
-    /*
+   
     const d = new Date();
     let year = d.getFullYear();
     const gh = getYear.innerHTML = year;
     console.log(gh);
-    */
+
     bar.addEventListener("click", function () {
       const html = document.getElementById("html");
       console.log(html);
@@ -36,4 +33,5 @@ const menu = document.getElementById("menu");
       span_1.classList.toggle('span_1');
       span_3.classList.toggle('span_3');
       html.classList.toggle("overflow");
+     
     });
