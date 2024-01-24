@@ -282,9 +282,9 @@ nav{
  align-self: cente;
  justify-content: flex-star;
  flex-wrap: wra;
- flex-direction: column;
+ flex-direction: colum;
  
- align-content: center;
+ align-content: cente;
   width: calc(40% - .5rem);
   border: 1px solid blac;
   padding: 0 5rem;
