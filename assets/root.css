@@ -41,9 +41,7 @@
   *::after {
     box-sizing: border-box;
   }
-  .new{
-    right:-1500px !important
-  }
+  
   body,
   h1,
   h2,

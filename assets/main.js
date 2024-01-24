@@ -10,9 +10,9 @@ const menu = document.getElementById("menu");
     activeLinks.forEach(function (link) {
 
       link.addEventListener("click", function () {
-    menu.classList.add("new");
-    menu.classList.remove("toggle");
-    overLay.classList.toggle('over');
+    menu.classList.toggle("menu-hide");
+    menu.classList.remove("menu-show");
+    //overLay.classList.toggle('over');
       span_2.classList.remove('active');
       span_1.classList.remove('span_1');
       span_3.classList.remove('span_3');
@@ -30,7 +30,7 @@ const menu = document.getElementById("menu");
     bar.addEventListener("click", function () {
       const html = document.getElementById("html");
       console.log(html);
-      menu.classList.toggle('toggle');
+      menu.classList.toggle('menu-show');
       over.classList.toggle('over');
       span_2.classList.toggle('active');
       span_1.classList.toggle('span_1');

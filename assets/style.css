@@ -102,11 +102,13 @@ span {
   transition: all .3s cubic-bezier(.4, 0, .2, 1);
 }
 
-.toggle {
+.menu-show {
   right: 0 !important;
   transition: 2s ease-in-out;
 }
-
+.menu-hide{
+  right:-1500px ;
+}
 .span_1 {
   transform: rotate(45deg) translate(5.5px, 0);
   transform-origin: center;
