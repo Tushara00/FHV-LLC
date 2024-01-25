@@ -33,7 +33,10 @@ section{
 }
 /* header */
 
-
+button a{
+font-size: 18px;
+color:white;
+}
 
 
 
@@ -71,7 +74,10 @@ header {
   z-index: 99999999;
   background-color: white;
 }
-
+p{ color:#76788f;
+  font-size: 16px;
+  line-height: 24px;
+}
 nav {
   background-color: aqu;
   display: flex;
@@ -231,9 +237,13 @@ ul li a:hover {
 /*start cyber security*/
 section h1{
   text-align: center;
-  padding-bottom:4rem;
+ line-height: 68px;
   font-weight: 700px;
-  font-size: 38px;
+  font-size: 48px;
+}
+
+section h4{
+  text-align: center;
 }
 .cyber-security{
   width:1140px;
@@ -242,11 +252,16 @@ section h1{
   margin:0 auto;
   overflow:visible !important;
 }
+
+.cyber-security h4{
+  line-height: 38px;
+}
 .facts-container{
   display:flex;
   flex-wrap: wrap;
 gap:1rem;
 overflow:visible !important;
+padding-top:5rem;
 }
 .fact-box{
 
@@ -278,6 +293,75 @@ padding:.8rem 0;
   
   }
 /*end cyber security*/
+
+.about-us span{
+  width: initial;
+  height: initial;
+  margin: initial;
+  background-color: initial;
+  display: initial;
+}
+.about-us{
+  background-color: #E5F4FF;
+  background-colo: #0bb2db;
+  width:1140px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom:5rem;
+  
+}
+.about-us h1{
+  padding-top:5re;
+  font-size: 48px;
+}
+.about-us h2{
+  padding-bottom:2rem;
+  font-size: 38px;
+}
+.about-us-container{
+  display:flex;
+  padding-top:5rem;
+ gap:5rem;
+ flex-wrap: wrap;
+}
+.whoWe{
+  width:calc(50% - 5rem);
+ 
+}
+.whoWe p strong{
+  font-size: 20px;
+  background-image: -webkit-linear-gradient(43deg,#3109c0 0%,#0bb2db 46%,#d30fb9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+.whoWe-Button{
+  padding:10px 20px;
+  background-color: #1D90F5;
+  outline:none;
+  border: none;
+  border-radius: 5px;
+  margin: 1.8rem 0;
+}
+.whatWe{
+  width:calc(50% - 5rem);
+  
+}
+.whatWe span{
+  background-image: -webkit-linear-gradient(43deg,#ffffff 0%,#0bb2db 46%,#ff70ec 100%);; 
+  display: flex;
+   border-radius: 50%;
+   margin:.5rem;
+  align-self: flex-start;
+  overflow: visible !important;
+  padding: 5px;
+}
+.whatWe span i{
+  font-size: 12px;
+  color:white;
+  overflow: visible;
+}
+/
 /*contact*/
 
 .contact-section{

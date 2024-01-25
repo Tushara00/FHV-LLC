@@ -93,6 +93,17 @@ margin:1rem 0 !important;
     .facts-container{
         margin: 0 2rem;
     }
+    section h1{
+        font-size: 28px !important;
+    }
+    .whatWe{
+        width:calc(100% - 5rem)!important;
+        
+      }
+      .whoWe{
+        width:calc(100% - 5rem)!important;
+        
+      }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 762px) {
