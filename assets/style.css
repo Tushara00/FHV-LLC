@@ -227,6 +227,57 @@ ul li a:hover {
 
   width:100%;
 }
+
+/*start cyber security*/
+section h1{
+  text-align: center;
+  padding-bottom:4rem;
+  font-weight: 700px;
+  font-size: 38px;
+}
+.cyber-security{
+  width:1140px;
+  max-width: 100%;
+  background-colo: rgba(0, 255, 255, 0.801);
+  margin:0 auto;
+  overflow:visible !important;
+}
+.facts-container{
+  display:flex;
+  flex-wrap: wrap;
+gap:1rem;
+overflow:visible !important;
+}
+.fact-box{
+
+  width: calc(25% - 1rem );
+  padding:0 1.5rem;
+overflow:visible !important;
+box-sizing: border-box;
+  padding-top:2rem;
+  padding-bottom:2rem;
+  border-radius: 15px;
+  box-shadow: 0px 15px 28px #888888,0 10px 10px rgba(0,0,0,0.22); 
+}
+.fact-box i
+{font-size: 2rem;
+  overflow: hidden;
+  padding-bottom:.5rem;
+  background-image: -webkit-linear-gradient(43deg,#ffffff 0%,#0bb2db 46%,#7072ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+.fact-box h2{
+padding:.8rem 0;
+}
+.fact-box p{
+  color:#76788f;
+  font-size: 16px;
+  line-height: 24px;
+  
+  }
+/*end cyber security*/
 /*contact*/
 
 .contact-section{
@@ -276,6 +327,14 @@ textarea:hover {
   background-color: #CFCDCD;
   border: 1px solid rgb(231, 221, 221);
 }
+.submit{
+  background-color: black;
+  color:white;
+}
+.submit:hover{
+  background-color:transparent;
+  color:black;
+}
 .right-content{
   display:flex;
   flex-direction: column;
@@ -285,6 +344,10 @@ textarea:hover {
   border:2px solid re;
   padding:2rem;
   border:2px solid re;
+}
+.right-content a, p {
+  font-size: 18px;
+  
 }
 .right-content span{
   width:inherit;
