@@ -110,11 +110,11 @@ margin:1rem 0 !important;
         font-size: 28px !important;
     }
     .whatWe{
-        width:calc(100% - 5rem)!important;
+        width:100% !important;
         
       }
       .whoWe{
-        width:calc(100% - 5rem)!important;
+        width:100% !important;
         
       }
 }
