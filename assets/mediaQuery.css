@@ -120,11 +120,12 @@ margin:1rem 0 !important;
     }
     .whatWe{
         width:100% !important;
+        padding:2rem 1rem!important;
         
       }
       .whoWe{
         width:100% !important;
-        
+        padding:2rem 1rem !important;
       }
 }
 
