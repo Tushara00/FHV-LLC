@@ -104,6 +104,10 @@ p{
 margin:1rem 0 !important;
 
     }
+    .service-box{
+        width:calc(100% - .5rem) !important;
+        margin-bottom:1rem;
+    }
     .facts-container{
         margin: 0 2rem;
         padding-top:3rem !important;
