@@ -87,7 +87,7 @@ section{
     padding:1rem 0 !important;
 }
 .about-us-container{
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 .about-us h2{
     font-size: 28px !important;
@@ -107,6 +107,9 @@ margin:1rem 0 !important;
     .service-box{
         width:calc(100% - .5rem) !important;
         margin-bottom:1rem;
+    }
+    .service-box img{
+        width:300px !important;
     }
     .facts-container{
         margin: 0 2rem;
