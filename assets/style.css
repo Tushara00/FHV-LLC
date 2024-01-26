@@ -176,11 +176,11 @@ ul li a:hover {
 }
 
 .hero-text h3 {
-  font-size: 21px;
+  font-size: 18px;
   color:white!important;
   font-family: 'Gordita';
   font-weight: 300;
-  line-height: 40px;
+  line-height: 36px;
 }
 
 .hero-text h1 {   
@@ -244,6 +244,7 @@ section h1{
 
 section h4{
   text-align: center;
+  padding: 0 16px;
 }
 .cyber-security{
   width:1140px;
@@ -266,7 +267,7 @@ padding-top:5rem;
 .fact-box{
 
   width: calc(25% - 1rem );
-  padding:0 1.5rem;
+  padding:0 1rem;
 overflow:visible !important;
 box-sizing: border-box;
   padding-top:2rem;
