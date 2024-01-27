@@ -94,8 +94,8 @@ section{
 }
 .hero-text{
     top: 60%;
-    left: 50% !important;
-    transform: translate(-50%, -60%)!important;
+    lef: 50% !important;
+    transfor: translate(-50%, -60%)!important;
 }
 .about-us-container{
     padding-top:3rem!important;
