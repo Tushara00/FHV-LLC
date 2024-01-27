@@ -29,7 +29,8 @@ ul {
     position: relative;
 }
 section{
-  padding: 5rem 0 0;
+  padding: 4rem 0;
+  
 }
 /* header */
 
@@ -59,12 +60,14 @@ border-radius:5px;
 
 .call-us{
   text-align: center;
-  padding:  10px 0px;
+  padding:  8px 0px;
 background-color: #1D90F5;
 border-radius:5px;
 display:none;
 }
-
+.know-more a{
+font-size: 16px !important;
+}
 .call-us a{
   font-size: 18px;
   color: white;
@@ -275,6 +278,14 @@ section h4{
   margin:0 auto;
   overflow:visible !important;
 }
+
+.our-services{
+  width:1140px;
+  max-width: 100%;
+  background-colo: rgba(0, 255, 255, 0.801);
+  margin:0 auto;
+  overflow:visible !important;
+}
 .know-more span{
   width: initial;
   height: initial;
@@ -451,6 +462,14 @@ padding:.8rem 0;
   font-size: 12px;
   color:white;
   overflow: visible;
+}
+
+.why-us{
+  width:1140px;
+  max-width: 100%;
+  background-colo: rgba(0, 255, 255, 0.801);
+  margin:0 auto;
+  overflow:visible !important;
 }
 /
 /*contact*/

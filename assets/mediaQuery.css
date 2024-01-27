@@ -92,6 +92,9 @@ section{
 .about-us h2{
     font-size: 28px !important;
 }
+.about-us p{
+    font-size: 32px !important;
+}
 p{
     font-size: 16px !important;
 }
