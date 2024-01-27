@@ -24,11 +24,17 @@
     width:100% !important;
   }
     .hero-text {
-        padding: 0 1rem;
+        padding-top: 2rem !important;
     }
 
     .hero-text h1 {
         font-size: 35px !important;
+    }
+    .hero-text h2{
+        line-height: 30px!important;
+    }
+    .hero-text h3{
+        line-height: 28px!important;
     }
 .hero-text .buttons{
     margin-top: .5rem;
