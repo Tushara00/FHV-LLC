@@ -10,6 +10,7 @@ body {
     text-decoration: none;
     font-family: 'Gordita', 'Times New Roman', serif;
     scroll-behavior: smooth;
+    scroll-margin-top:6rem;
 }
 
 ul li {
@@ -60,7 +61,7 @@ border-radius:5px;
 
 .call-us{
   text-align: center;
-  padding:  8px 0px;
+  padding:  5px 0px;
 background-color: #1D90F5;
 border-radius:5px;
 display:none;
@@ -224,7 +225,7 @@ ul li a:hover {
   -webkit-text-fill-color: transparent;
 }
 .hero-text button{
-  padding:8px 20px;
+  padding:10px 20px;
   border-radius: 5px;
   margin:2rem .3rem;
   outline:none;
@@ -470,13 +471,14 @@ padding:.8rem 0;
   background-colo: rgba(0, 255, 255, 0.801);
   margin:0 auto;
   overflow:visible !important;
+  scroll-margin-top:6rem;
 }
 /
 /*contact*/
 
 .contact-section{
   
- 
+  scroll-margin-top:15rem;
   margin:0 auto;
 
 }

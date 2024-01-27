@@ -86,6 +86,15 @@ padding-bottom:1re;
 section{
     padding:1rem 0 !important;
 }
+.hero-text h3{
+    font-size: 16px !important;
+}
+.hero-text{
+    text-align: center !important;
+}
+.call-us a {
+    font-size: 16px !important;
+}
 .about-us-container{
     padding: 0 1rem;
 }
