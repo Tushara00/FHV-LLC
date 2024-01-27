@@ -96,6 +96,8 @@ section{
     top: 60%;
     left: 0% !important;
     transform: translateY(-60%) !important;
+    padding-right:1rem !important;
+    padding-left:1rem !important;
 }
 .about-us-container{
     padding-top:3rem!important;
