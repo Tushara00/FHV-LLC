@@ -155,7 +155,7 @@ span {
 
 .menu-show {
   right: 0 !important;
-  transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
 }
 .menu-hide{
   right:-1500px ;

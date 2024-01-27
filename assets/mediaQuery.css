@@ -108,6 +108,9 @@ section{
 .hero-text{
     text-align: center !important;
 }
+.hero-text h1{
+    line-height: 60px !important;
+}
 .call-us a {
     font-size: 16px !important;
 }
