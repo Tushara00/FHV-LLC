@@ -56,10 +56,32 @@ color:white;
 background-color: #1D90F5;
 border-radius:5px;
 }
+
+.call-us{
+  text-align: center;
+  padding:  10px 0px;
+background-color: #1D90F5;
+border-radius:5px;
+display:none;
+}
+
+.call-us a{
+  font-size: 18px;
+  color: white;
+  
+}
+
+
 .phone-number a{
   font-size: 18px;
   color: white;
   
+}
+
+.call-us i{
+  padding-right:5px;
+  font-size: 15px;
+  color:white;
 }
 .phone-number i{
   padding-right:5px;
@@ -253,7 +275,16 @@ section h4{
   margin:0 auto;
   overflow:visible !important;
 }
-
+.know-more span{
+  width: initial;
+  height: initial;
+  margin: initial;
+  background-color: initial;
+  display: initial;
+}
+.know-more{
+  text-align: center;
+}
 .cyber-security h4{
   line-height: 38px;
 }
@@ -312,7 +343,7 @@ padding:.8rem 0;
 .fact-box p{
   color:#76788f;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 28px;
   
   }
 
