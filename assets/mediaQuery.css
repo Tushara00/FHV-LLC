@@ -84,7 +84,15 @@ padding-bottom:1re;
         text-align: center;
     }
 section{
-    padding:1rem 0 !important;
+    padding:2rem 0 !important;
+}
+.hero-text{
+    top: 60%;
+    left: 50% !important;
+    transform: translate(-50%, -60%)!important;
+}
+.about-us-container{
+    padding-top:3rem!important;
 }
 .hero-text h3{
     font-size: 16px !important;
@@ -124,7 +132,7 @@ margin:1rem 0 !important;
         width:300px !important;
     }
     .facts-container{
-        margin: 0 2rem;
+        margin: 0 1rem;
         padding-top:3rem !important;
     }
     section h1{
@@ -141,6 +149,9 @@ margin:1rem 0 !important;
       }
       .call-us{
         display:block!important;
+      }
+      .cyber-button{
+        padding-top:1rem!important;
       }
 }
 
