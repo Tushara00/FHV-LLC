@@ -94,8 +94,8 @@ section{
 }
 .hero-text{
     top: 60%;
-    lef: 50% !important;
-    transfor: translate(-50%, -60%)!important;
+    left: 0% !important;
+    transform: translateY(-60%) !important;
 }
 .about-us-container{
     padding-top:3rem!important;
@@ -113,7 +113,7 @@ section{
     padding: 0 1rem;
 }
 .about-us h2{
-    font-size: 28px !important;
+    font-size: 20px !important;
 }
 .about-us p{
     line-height: 32px !important;
