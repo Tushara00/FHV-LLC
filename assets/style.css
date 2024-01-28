@@ -15,7 +15,7 @@ body {
   scroll-behavior: smooth;
   scroll-margin-top: 6rem;
 }
-h1,h1,h3,h4{
+h1,h2,h3,h4{
   font-family: 'Heebo', sans-serif;
   overflow-x: hidden;
 
@@ -35,7 +35,7 @@ ul li {
   font-size: 12px;
   ;
   padding: 1rem;
-  font-family: 'Gordita';
+ 
 }
 
 ul {
@@ -251,7 +251,7 @@ h2{
 .hero-text h3 {
   font-size: 18px;
   color: white !important;
-  font-family: 'Gordita';
+
   font-weight: 300;
   line-height: 36px;
 }
@@ -262,7 +262,7 @@ h4{
 }
 .hero-text button a {
   color: white;
-  font-family: 'Gordita', sans-serif;
+ 
   font-size: 16px !important;
   font-weight: 300;
 }
